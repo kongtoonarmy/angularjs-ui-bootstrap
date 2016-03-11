@@ -1,6 +1,2 @@
 // app.js
-var myApp = angular.module('myApp', ['ui.bootstrap']);
-
-myApp.controller('AppCtrl', ['$scope', function AppCtrl($scope) {
-    $scope.title = "Welcome to app";
-}]);
+var myApp = angular.module('myApp', ['ui.bootstrap', 'ui.bootstrap.pagination']);
