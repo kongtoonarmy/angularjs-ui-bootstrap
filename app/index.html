@@ -11,8 +11,17 @@
 	<script src="/node_modules/angular-touch/angular-touch.min.js"></script>
 	<script src="/app/app.js"></script>
 </head>
-<body ng-controller="AppCtrl">
-{{title}}
+<body>
+
+<div class="container" ng-controller="PopoverDemoCtrl">
+
+    <hr />
+    <h4>Triggers</h4>
+    
+    <a href="#" uib-popover="I appeared on mouse enter!" popover-trigger="mouseenter" popover-enable="true"
+       popover-placement="right">info
+    </a>
+</div>
 
 </body>
 </html>
